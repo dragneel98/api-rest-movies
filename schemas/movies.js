@@ -1,4 +1,5 @@
-const z = require('zod')
+// const z = require('zod')
+import { z } from 'zod'
 
 const movieSchema = z.object({
   title: z.string({
